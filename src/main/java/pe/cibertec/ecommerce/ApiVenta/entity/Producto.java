@@ -8,9 +8,9 @@ import lombok.Data;
 @Data
 @Embeddable
 public class Producto {
-    private Long productId;
-    private String productName;
-    private BigDecimal unitPrice;
-    private BigDecimal quantity;
+    private Long productoId;
+    private String nombreproducto;
+    private BigDecimal precio;
+    private BigDecimal cantidad;
     
 }
